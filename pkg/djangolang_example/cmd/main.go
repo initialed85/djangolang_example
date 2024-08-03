@@ -12,7 +12,7 @@ import (
 	"gopkg.in/yaml.v2"
 
 	"github.com/initialed85/djangolang/pkg/helpers"
-	"github.com/initialed85/djangolang_example"
+	"github.com/initialed85/djangolang_example/pkg/djangolang_example"
 )
 
 func main() {
