@@ -10,8 +10,14 @@ function teardown() {
 trap teardown exit
 
 # ensure we've got a djangolang executable available (required for templating)
-if ! command -v djangolang >/dev/null 2>&1; then
+if [[ "${FORCE_UPDATE}" == "1" ]] || ! command -v djangolang >/dev/null 2>&1; then
     go install github.com/initialed85/djangolang@latest
+    go get -u github.com/initialed85/djangolang@latest
+fi
+
+# we need oapi-codegen to generate the client for use by Go code
+if ! command -v oapi-codegen; then
+    go install github.com/oapi-codegen/oapi-codegen/v2/cmd/oapi-codegen@main
 fi
 
 # we need npm to generate the client for use by the frontend
@@ -31,9 +37,19 @@ fi
 POSTGRES_DB=some_db POSTGRES_PASSWORD=some-password djangolang template
 
 # dump out the OpenAPI v3 schema for the Djangolang API
-./pkg/djangolang_example/bin/djangolang_example dump-openapi-json >frontend/openapi.json
+./pkg/djangolang_example/bin/djangolang_example dump-openapi-json >./schema/openapi.json
 
 # generate the client for use by the frontend
 cd frontend
 npm ci
 npm run openapi-typescript
+npm run prettier
+cd ..
+
+# generate the client for use by Go code
+mkdir -p ./pkg/djangolang_example_client
+oapi-codegen --generate 'types,client,spec' -package client -o ./pkg/djangolang_example_client/client.go ./schema/openapi.json
+go mod tidy
+goimports -w .
+go get ./...
+go fmt ./...
