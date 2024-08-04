@@ -7,9 +7,7 @@
   "paths": {
     "/fuzzes": {
       "get": {
-        "tags": [
-          "Fuzz"
-        ],
+        "tags": ["Fuzz"],
         "operationId": "GetFuzzes",
         "parameters": [
           {
@@ -3492,10 +3490,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3518,10 +3513,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3529,9 +3521,7 @@
         }
       },
       "post": {
-        "tags": [
-          "Fuzz"
-        ],
+        "tags": ["Fuzz"],
         "operationId": "PostFuzzes",
         "requestBody": {
           "content": {
@@ -3571,10 +3561,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3597,10 +3584,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3610,9 +3594,7 @@
     },
     "/fuzzes/{primaryKey}": {
       "get": {
-        "tags": [
-          "Fuzz"
-        ],
+        "tags": ["Fuzz"],
         "operationId": "GetFuzz",
         "parameters": [
           {
@@ -3648,10 +3630,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3674,10 +3653,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3685,9 +3661,7 @@
         }
       },
       "put": {
-        "tags": [
-          "Fuzz"
-        ],
+        "tags": ["Fuzz"],
         "operationId": "PutFuzz",
         "parameters": [
           {
@@ -3733,10 +3707,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3759,10 +3730,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3770,9 +3738,7 @@
         }
       },
       "patch": {
-        "tags": [
-          "Fuzz"
-        ],
+        "tags": ["Fuzz"],
         "operationId": "PatchFuzz",
         "parameters": [
           {
@@ -3818,10 +3784,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3844,10 +3807,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3855,9 +3815,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "Fuzz"
-        ],
+        "tags": ["Fuzz"],
         "operationId": "DeleteFuzz",
         "parameters": [
           {
@@ -3890,10 +3848,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -3903,9 +3858,7 @@
     },
     "/location-histories": {
       "get": {
-        "tags": [
-          "LocationHistory"
-        ],
+        "tags": ["LocationHistory"],
         "operationId": "GetLocationHistories",
         "parameters": [
           {
@@ -5254,10 +5207,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5280,10 +5230,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5291,9 +5238,7 @@
         }
       },
       "post": {
-        "tags": [
-          "LocationHistory"
-        ],
+        "tags": ["LocationHistory"],
         "operationId": "PostLocationHistories",
         "requestBody": {
           "content": {
@@ -5333,10 +5278,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5359,10 +5301,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5372,9 +5311,7 @@
     },
     "/location-histories/{primaryKey}": {
       "get": {
-        "tags": [
-          "LocationHistory"
-        ],
+        "tags": ["LocationHistory"],
         "operationId": "GetLocationHistory",
         "parameters": [
           {
@@ -5410,10 +5347,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5436,10 +5370,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5447,9 +5378,7 @@
         }
       },
       "put": {
-        "tags": [
-          "LocationHistory"
-        ],
+        "tags": ["LocationHistory"],
         "operationId": "PutLocationHistory",
         "parameters": [
           {
@@ -5495,10 +5424,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5521,10 +5447,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5532,9 +5455,7 @@
         }
       },
       "patch": {
-        "tags": [
-          "LocationHistory"
-        ],
+        "tags": ["LocationHistory"],
         "operationId": "PatchLocationHistory",
         "parameters": [
           {
@@ -5580,10 +5501,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5606,10 +5524,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5617,9 +5532,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "LocationHistory"
-        ],
+        "tags": ["LocationHistory"],
         "operationId": "DeleteLocationHistory",
         "parameters": [
           {
@@ -5652,10 +5565,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -5665,9 +5575,7 @@
     },
     "/logical-things": {
       "get": {
-        "tags": [
-          "LogicalThing"
-        ],
+        "tags": ["LogicalThing"],
         "operationId": "GetLogicalThings",
         "parameters": [
           {
@@ -7610,10 +7518,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7636,10 +7541,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7647,9 +7549,7 @@
         }
       },
       "post": {
-        "tags": [
-          "LogicalThing"
-        ],
+        "tags": ["LogicalThing"],
         "operationId": "PostLogicalThings",
         "requestBody": {
           "content": {
@@ -7689,10 +7589,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7715,10 +7612,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7728,9 +7622,7 @@
     },
     "/logical-things/{primaryKey}": {
       "get": {
-        "tags": [
-          "LogicalThing"
-        ],
+        "tags": ["LogicalThing"],
         "operationId": "GetLogicalThing",
         "parameters": [
           {
@@ -7766,10 +7658,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7792,10 +7681,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7803,9 +7689,7 @@
         }
       },
       "put": {
-        "tags": [
-          "LogicalThing"
-        ],
+        "tags": ["LogicalThing"],
         "operationId": "PutLogicalThing",
         "parameters": [
           {
@@ -7851,10 +7735,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7877,10 +7758,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7888,9 +7766,7 @@
         }
       },
       "patch": {
-        "tags": [
-          "LogicalThing"
-        ],
+        "tags": ["LogicalThing"],
         "operationId": "PatchLogicalThing",
         "parameters": [
           {
@@ -7936,10 +7812,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7962,10 +7835,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -7973,9 +7843,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "LogicalThing"
-        ],
+        "tags": ["LogicalThing"],
         "operationId": "DeleteLogicalThing",
         "parameters": [
           {
@@ -8008,10 +7876,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -8021,9 +7886,7 @@
     },
     "/physical-things": {
       "get": {
-        "tags": [
-          "PhysicalThing"
-        ],
+        "tags": ["PhysicalThing"],
         "operationId": "GetPhysicalThings",
         "parameters": [
           {
@@ -9526,10 +9389,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9552,10 +9412,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9563,9 +9420,7 @@
         }
       },
       "post": {
-        "tags": [
-          "PhysicalThing"
-        ],
+        "tags": ["PhysicalThing"],
         "operationId": "PostPhysicalThings",
         "requestBody": {
           "content": {
@@ -9605,10 +9460,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9631,10 +9483,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9644,9 +9493,7 @@
     },
     "/physical-things/{primaryKey}": {
       "get": {
-        "tags": [
-          "PhysicalThing"
-        ],
+        "tags": ["PhysicalThing"],
         "operationId": "GetPhysicalThing",
         "parameters": [
           {
@@ -9682,10 +9529,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9708,10 +9552,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9719,9 +9560,7 @@
         }
       },
       "put": {
-        "tags": [
-          "PhysicalThing"
-        ],
+        "tags": ["PhysicalThing"],
         "operationId": "PutPhysicalThing",
         "parameters": [
           {
@@ -9767,10 +9606,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9793,10 +9629,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9804,9 +9637,7 @@
         }
       },
       "patch": {
-        "tags": [
-          "PhysicalThing"
-        ],
+        "tags": ["PhysicalThing"],
         "operationId": "PatchPhysicalThing",
         "parameters": [
           {
@@ -9852,10 +9683,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9878,10 +9706,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9889,9 +9714,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "PhysicalThing"
-        ],
+        "tags": ["PhysicalThing"],
         "operationId": "DeletePhysicalThing",
         "parameters": [
           {
@@ -9924,10 +9747,7 @@
                       "type": "boolean"
                     }
                   },
-                  "required": [
-                    "status",
-                    "success"
-                  ]
+                  "required": ["status", "success"]
                 }
               }
             }
@@ -9945,62 +9765,62 @@
       "Fuzz": {
         "type": "object",
         "properties": {
-          "Column1": {
+          "column1": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "Column10": {},
-          "Column11": {},
-          "Column12": {
+          "column10": {},
+          "column11": {},
+          "column12": {
             "type": "integer",
             "format": "int64",
             "nullable": true
           },
-          "Column13": {
+          "column13": {
             "type": "integer",
             "format": "int64",
             "nullable": true
           },
-          "Column14": {
+          "column14": {
             "type": "integer",
             "format": "int64",
             "nullable": true
           },
-          "Column15": {},
-          "Column16": {},
-          "Column17": {},
-          "Column18": {},
-          "Column19": {
+          "column15": {},
+          "column16": {},
+          "column17": {},
+          "column18": {},
+          "column19": {
             "type": "number",
             "format": "double",
             "nullable": true
           },
-          "Column2": {
+          "column2": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "Column20": {
+          "column20": {
             "type": "number",
             "format": "double",
             "nullable": true
           },
-          "Column21": {
+          "column21": {
             "type": "number",
             "format": "double",
             "nullable": true
           },
-          "Column22": {
+          "column22": {
             "type": "number",
             "format": "double",
             "nullable": true
           },
-          "Column23": {},
-          "Column24": {
+          "column23": {},
+          "column24": {
             "type": "boolean"
           },
-          "Column25": {
+          "column25": {
             "type": "object",
             "additionalProperties": {
               "type": "array",
@@ -10010,19 +9830,19 @@
               }
             }
           },
-          "Column26": {
+          "column26": {
             "type": "string",
             "format": "uuid",
             "nullable": true
           },
-          "Column27": {
+          "column27": {
             "type": "object",
             "additionalProperties": {
               "type": "string",
               "nullable": true
             }
           },
-          "Column28": {
+          "column28": {
             "type": "object",
             "properties": {
               "X": {
@@ -10035,7 +9855,7 @@
               }
             }
           },
-          "Column29": {
+          "column29": {
             "type": "array",
             "items": {
               "type": "object",
@@ -10051,11 +9871,11 @@
               }
             }
           },
-          "Column3": {
+          "column3": {
             "type": "object",
             "nullable": true
           },
-          "Column30": {
+          "column30": {
             "type": "object",
             "properties": {
               "X": {
@@ -10072,7 +9892,7 @@
               }
             }
           },
-          "Column31": {
+          "column31": {
             "type": "object",
             "properties": {
               "X": {
@@ -10089,40 +9909,40 @@
               }
             }
           },
-          "Column32": {
+          "column32": {
             "type": "string",
             "format": "ipv4",
             "nullable": true
           },
-          "Column33": {
+          "column33": {
             "type": "string",
             "format": "byte",
             "nullable": true
           },
-          "Column4": {
+          "column4": {
             "type": "object",
             "nullable": true
           },
-          "Column5": {
+          "column5": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "Column6": {
+          "column6": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "Column7": {
+          "column7": {
             "type": "string"
           },
-          "Column8": {
+          "column8": {
             "type": "string"
           },
-          "Column9": {},
-          "ID": {
+          "column9": {},
+          "id": {
             "type": "string",
             "format": "uuid"
           }
@@ -10131,28 +9951,28 @@
       "LocationHistory": {
         "type": "object",
         "properties": {
-          "CreatedAt": {
+          "created_at": {
             "type": "string",
             "format": "date-time"
           },
-          "DeletedAt": {
+          "deleted_at": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "ID": {
+          "id": {
             "type": "string",
             "format": "uuid"
           },
-          "ParentPhysicalThingID": {
+          "parent_physical_thing_id": {
             "type": "string",
             "format": "uuid",
             "nullable": true
           },
-          "ParentPhysicalThingIDObject": {
+          "parent_physical_thing_id_object": {
             "$ref": "#/components/schemas/NullablePhysicalThing"
           },
-          "Point": {
+          "point": {
             "type": "object",
             "properties": {
               "X": {
@@ -10165,7 +9985,7 @@
               }
             }
           },
-          "Polygon": {
+          "polygon": {
             "type": "array",
             "items": {
               "type": "object",
@@ -10181,11 +10001,11 @@
               }
             }
           },
-          "Timestamp": {
+          "timestamp": {
             "type": "string",
             "format": "date-time"
           },
-          "UpdatedAt": {
+          "updated_at": {
             "type": "string",
             "format": "date-time"
           }
@@ -10194,62 +10014,62 @@
       "LogicalThing": {
         "type": "object",
         "properties": {
-          "CreatedAt": {
+          "created_at": {
             "type": "string",
             "format": "date-time"
           },
-          "DeletedAt": {
+          "deleted_at": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "ExternalID": {
+          "external_id": {
             "type": "string"
           },
-          "ID": {
+          "id": {
             "type": "string",
             "format": "uuid"
           },
-          "Metadata": {
+          "metadata": {
             "type": "object",
             "additionalProperties": {
               "type": "string",
               "nullable": true
             }
           },
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "ParentLogicalThingID": {
+          "parent_logical_thing_id": {
             "type": "string",
             "format": "uuid",
             "nullable": true
           },
-          "ParentLogicalThingIDObject": {
+          "parent_logical_thing_id_object": {
             "$ref": "#/components/schemas/NullableLogicalThing"
           },
-          "ParentPhysicalThingID": {
+          "parent_physical_thing_id": {
             "type": "string",
             "format": "uuid",
             "nullable": true
           },
-          "ParentPhysicalThingIDObject": {
+          "parent_physical_thing_id_object": {
             "$ref": "#/components/schemas/NullablePhysicalThing"
           },
-          "RawData": {
+          "raw_data": {
             "type": "object",
             "nullable": true
           },
-          "Tags": {
+          "tags": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "Type": {
+          "type": {
             "type": "string"
           },
-          "UpdatedAt": {
+          "updated_at": {
             "type": "string",
             "format": "date-time"
           }
@@ -10334,46 +10154,46 @@
       "PhysicalThing": {
         "type": "object",
         "properties": {
-          "CreatedAt": {
+          "created_at": {
             "type": "string",
             "format": "date-time"
           },
-          "DeletedAt": {
+          "deleted_at": {
             "type": "string",
             "format": "date-time",
             "nullable": true
           },
-          "ExternalID": {
+          "external_id": {
             "type": "string"
           },
-          "ID": {
+          "id": {
             "type": "string",
             "format": "uuid"
           },
-          "Metadata": {
+          "metadata": {
             "type": "object",
             "additionalProperties": {
               "type": "string",
               "nullable": true
             }
           },
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "RawData": {
+          "raw_data": {
             "type": "object",
             "nullable": true
           },
-          "Tags": {
+          "tags": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "Type": {
+          "type": {
             "type": "string"
           },
-          "UpdatedAt": {
+          "updated_at": {
             "type": "string",
             "format": "date-time"
           }

@@ -4,3036 +4,3036 @@
  */
 
 export interface paths {
-    "/fuzzes": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetFuzzes"];
-        put?: never;
-        post: operations["PostFuzzes"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+  "/fuzzes": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/fuzzes/{primaryKey}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetFuzz"];
-        put: operations["PutFuzz"];
-        post?: never;
-        delete: operations["DeleteFuzz"];
-        options?: never;
-        head?: never;
-        patch: operations["PatchFuzz"];
-        trace?: never;
+    get: operations["GetFuzzes"];
+    put?: never;
+    post: operations["PostFuzzes"];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  "/fuzzes/{primaryKey}": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/location-histories": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetLocationHistories"];
-        put?: never;
-        post: operations["PostLocationHistories"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations["GetFuzz"];
+    put: operations["PutFuzz"];
+    post?: never;
+    delete: operations["DeleteFuzz"];
+    options?: never;
+    head?: never;
+    patch: operations["PatchFuzz"];
+    trace?: never;
+  };
+  "/location-histories": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/location-histories/{primaryKey}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetLocationHistory"];
-        put: operations["PutLocationHistory"];
-        post?: never;
-        delete: operations["DeleteLocationHistory"];
-        options?: never;
-        head?: never;
-        patch: operations["PatchLocationHistory"];
-        trace?: never;
+    get: operations["GetLocationHistories"];
+    put?: never;
+    post: operations["PostLocationHistories"];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  "/location-histories/{primaryKey}": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/logical-things": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetLogicalThings"];
-        put?: never;
-        post: operations["PostLogicalThings"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations["GetLocationHistory"];
+    put: operations["PutLocationHistory"];
+    post?: never;
+    delete: operations["DeleteLocationHistory"];
+    options?: never;
+    head?: never;
+    patch: operations["PatchLocationHistory"];
+    trace?: never;
+  };
+  "/logical-things": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/logical-things/{primaryKey}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetLogicalThing"];
-        put: operations["PutLogicalThing"];
-        post?: never;
-        delete: operations["DeleteLogicalThing"];
-        options?: never;
-        head?: never;
-        patch: operations["PatchLogicalThing"];
-        trace?: never;
+    get: operations["GetLogicalThings"];
+    put?: never;
+    post: operations["PostLogicalThings"];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  "/logical-things/{primaryKey}": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/physical-things": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetPhysicalThings"];
-        put?: never;
-        post: operations["PostPhysicalThings"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations["GetLogicalThing"];
+    put: operations["PutLogicalThing"];
+    post?: never;
+    delete: operations["DeleteLogicalThing"];
+    options?: never;
+    head?: never;
+    patch: operations["PatchLogicalThing"];
+    trace?: never;
+  };
+  "/physical-things": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/physical-things/{primaryKey}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["GetPhysicalThing"];
-        put: operations["PutPhysicalThing"];
-        post?: never;
-        delete: operations["DeletePhysicalThing"];
-        options?: never;
-        head?: never;
-        patch: operations["PatchPhysicalThing"];
-        trace?: never;
+    get: operations["GetPhysicalThings"];
+    put?: never;
+    post: operations["PostPhysicalThings"];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  "/physical-things/{primaryKey}": {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
+    get: operations["GetPhysicalThing"];
+    put: operations["PutPhysicalThing"];
+    post?: never;
+    delete: operations["DeletePhysicalThing"];
+    options?: never;
+    head?: never;
+    patch: operations["PatchPhysicalThing"];
+    trace?: never;
+  };
 }
 export type webhooks = Record<string, never>;
 export interface components {
-    schemas: {
-        Any: Record<string, never>;
-        Fuzz: {
-            /** Format: date-time */
-            Column1?: string | null;
-            Column10?: unknown;
-            Column11?: unknown;
-            /** Format: int64 */
-            Column12?: number | null;
-            /** Format: int64 */
-            Column13?: number | null;
-            /** Format: int64 */
-            Column14?: number | null;
-            Column15?: unknown;
-            Column16?: unknown;
-            Column17?: unknown;
-            Column18?: unknown;
-            /** Format: double */
-            Column19?: number | null;
-            /** Format: date-time */
-            Column2?: string | null;
-            /** Format: double */
-            Column20?: number | null;
-            /** Format: double */
-            Column21?: number | null;
-            /** Format: double */
-            Column22?: number | null;
-            Column23?: unknown;
-            Column24?: boolean;
-            Column25?: {
-                [key: string]: number[];
-            };
-            /** Format: uuid */
-            Column26?: string | null;
-            Column27?: {
-                [key: string]: string | null;
-            };
-            Column28?: {
-                /** Format: double */
-                X?: number;
-                /** Format: double */
-                Y?: number;
-            };
-            Column29?: {
-                /** Format: double */
-                X?: number;
-                /** Format: double */
-                Y?: number;
-            }[];
-            Column3?: Record<string, never>;
-            Column30?: {
-                /** Format: double */
-                X?: number;
-                /** Format: double */
-                Y?: number;
-                /** Format: double */
-                Z?: number;
-            };
-            Column31?: {
-                /** Format: double */
-                X?: number;
-                /** Format: double */
-                Y?: number;
-                /** Format: double */
-                Z?: number;
-            };
-            /** Format: ipv4 */
-            Column32?: string | null;
-            /** Format: byte */
-            Column33?: string | null;
-            Column4?: Record<string, never>;
-            Column5?: string[];
-            Column6?: string[];
-            Column7?: string;
-            Column8?: string;
-            Column9?: unknown;
-            /** Format: uuid */
-            ID?: string;
-        };
-        LocationHistory: {
-            /** Format: date-time */
-            CreatedAt?: string;
-            /** Format: date-time */
-            DeletedAt?: string | null;
-            /** Format: uuid */
-            ID?: string;
-            /** Format: uuid */
-            ParentPhysicalThingID?: string | null;
-            ParentPhysicalThingIDObject?: components["schemas"]["NullablePhysicalThing"];
-            Point?: {
-                /** Format: double */
-                X?: number;
-                /** Format: double */
-                Y?: number;
-            };
-            Polygon?: {
-                /** Format: double */
-                X?: number;
-                /** Format: double */
-                Y?: number;
-            }[];
-            /** Format: date-time */
-            Timestamp?: string;
-            /** Format: date-time */
-            UpdatedAt?: string;
-        };
-        LogicalThing: {
-            /** Format: date-time */
-            CreatedAt?: string;
-            /** Format: date-time */
-            DeletedAt?: string | null;
-            ExternalID?: string;
-            /** Format: uuid */
-            ID?: string;
-            Metadata?: {
-                [key: string]: string | null;
-            };
-            Name?: string;
-            /** Format: uuid */
-            ParentLogicalThingID?: string | null;
-            ParentLogicalThingIDObject?: components["schemas"]["NullableLogicalThing"];
-            /** Format: uuid */
-            ParentPhysicalThingID?: string | null;
-            ParentPhysicalThingIDObject?: components["schemas"]["NullablePhysicalThing"];
-            RawData?: Record<string, never>;
-            Tags?: string[];
-            Type?: string;
-            /** Format: date-time */
-            UpdatedAt?: string;
-        };
-        MapOfStringInt: {
-            [key: string]: number[];
-        };
-        MapOfStringString: {
-            [key: string]: string | null;
-        };
-        NullableFuzz: components["schemas"]["Fuzz"];
-        NullableLocationHistory: components["schemas"]["LocationHistory"];
-        NullableLogicalThing: components["schemas"]["LogicalThing"];
-        NullableMapStringInt: {
-            [key: string]: number[];
-        };
-        NullableMapStringString: {
-            [key: string]: string | null;
-        };
-        NullablePhysicalThing: components["schemas"]["PhysicalThing"];
-        NullablePointZ: {
-            /** Format: double */
-            X?: number;
-            /** Format: double */
-            Y?: number;
-            /** Format: double */
-            Z?: number;
-        };
-        NullableVec2: {
-            /** Format: double */
-            X?: number;
-            /** Format: double */
-            Y?: number;
-        };
-        PhysicalThing: {
-            /** Format: date-time */
-            CreatedAt?: string;
-            /** Format: date-time */
-            DeletedAt?: string | null;
-            ExternalID?: string;
-            /** Format: uuid */
-            ID?: string;
-            Metadata?: {
-                [key: string]: string | null;
-            };
-            Name?: string;
-            RawData?: Record<string, never>;
-            Tags?: string[];
-            Type?: string;
-            /** Format: date-time */
-            UpdatedAt?: string;
-        };
-        PointZ: {
-            /** Format: double */
-            X?: number;
-            /** Format: double */
-            Y?: number;
-            /** Format: double */
-            Z?: number;
-        };
-        Vec2: {
-            /** Format: double */
-            X?: number;
-            /** Format: double */
-            Y?: number;
-        };
+  schemas: {
+    Any: Record<string, never>;
+    Fuzz: {
+      /** Format: date-time */
+      column1?: string | null;
+      column10?: unknown;
+      column11?: unknown;
+      /** Format: int64 */
+      column12?: number | null;
+      /** Format: int64 */
+      column13?: number | null;
+      /** Format: int64 */
+      column14?: number | null;
+      column15?: unknown;
+      column16?: unknown;
+      column17?: unknown;
+      column18?: unknown;
+      /** Format: double */
+      column19?: number | null;
+      /** Format: date-time */
+      column2?: string | null;
+      /** Format: double */
+      column20?: number | null;
+      /** Format: double */
+      column21?: number | null;
+      /** Format: double */
+      column22?: number | null;
+      column23?: unknown;
+      column24?: boolean;
+      column25?: {
+        [key: string]: number[];
+      };
+      /** Format: uuid */
+      column26?: string | null;
+      column27?: {
+        [key: string]: string | null;
+      };
+      column28?: {
+        /** Format: double */
+        X?: number;
+        /** Format: double */
+        Y?: number;
+      };
+      column29?: {
+        /** Format: double */
+        X?: number;
+        /** Format: double */
+        Y?: number;
+      }[];
+      column3?: Record<string, never>;
+      column30?: {
+        /** Format: double */
+        X?: number;
+        /** Format: double */
+        Y?: number;
+        /** Format: double */
+        Z?: number;
+      };
+      column31?: {
+        /** Format: double */
+        X?: number;
+        /** Format: double */
+        Y?: number;
+        /** Format: double */
+        Z?: number;
+      };
+      /** Format: ipv4 */
+      column32?: string | null;
+      /** Format: byte */
+      column33?: string | null;
+      column4?: Record<string, never>;
+      column5?: string[];
+      column6?: string[];
+      column7?: string;
+      column8?: string;
+      column9?: unknown;
+      /** Format: uuid */
+      id?: string;
     };
-    responses: never;
-    parameters: never;
-    requestBodies: never;
-    headers: never;
-    pathItems: never;
+    LocationHistory: {
+      /** Format: date-time */
+      created_at?: string;
+      /** Format: date-time */
+      deleted_at?: string | null;
+      /** Format: uuid */
+      id?: string;
+      /** Format: uuid */
+      parent_physical_thing_id?: string | null;
+      parent_physical_thing_id_object?: components["schemas"]["NullablePhysicalThing"];
+      point?: {
+        /** Format: double */
+        X?: number;
+        /** Format: double */
+        Y?: number;
+      };
+      polygon?: {
+        /** Format: double */
+        X?: number;
+        /** Format: double */
+        Y?: number;
+      }[];
+      /** Format: date-time */
+      timestamp?: string;
+      /** Format: date-time */
+      updated_at?: string;
+    };
+    LogicalThing: {
+      /** Format: date-time */
+      created_at?: string;
+      /** Format: date-time */
+      deleted_at?: string | null;
+      external_id?: string;
+      /** Format: uuid */
+      id?: string;
+      metadata?: {
+        [key: string]: string | null;
+      };
+      name?: string;
+      /** Format: uuid */
+      parent_logical_thing_id?: string | null;
+      parent_logical_thing_id_object?: components["schemas"]["NullableLogicalThing"];
+      /** Format: uuid */
+      parent_physical_thing_id?: string | null;
+      parent_physical_thing_id_object?: components["schemas"]["NullablePhysicalThing"];
+      raw_data?: Record<string, never>;
+      tags?: string[];
+      type?: string;
+      /** Format: date-time */
+      updated_at?: string;
+    };
+    MapOfStringInt: {
+      [key: string]: number[];
+    };
+    MapOfStringString: {
+      [key: string]: string | null;
+    };
+    NullableFuzz: components["schemas"]["Fuzz"];
+    NullableLocationHistory: components["schemas"]["LocationHistory"];
+    NullableLogicalThing: components["schemas"]["LogicalThing"];
+    NullableMapStringInt: {
+      [key: string]: number[];
+    };
+    NullableMapStringString: {
+      [key: string]: string | null;
+    };
+    NullablePhysicalThing: components["schemas"]["PhysicalThing"];
+    NullablePointZ: {
+      /** Format: double */
+      X?: number;
+      /** Format: double */
+      Y?: number;
+      /** Format: double */
+      Z?: number;
+    };
+    NullableVec2: {
+      /** Format: double */
+      X?: number;
+      /** Format: double */
+      Y?: number;
+    };
+    PhysicalThing: {
+      /** Format: date-time */
+      created_at?: string;
+      /** Format: date-time */
+      deleted_at?: string | null;
+      external_id?: string;
+      /** Format: uuid */
+      id?: string;
+      metadata?: {
+        [key: string]: string | null;
+      };
+      name?: string;
+      raw_data?: Record<string, never>;
+      tags?: string[];
+      type?: string;
+      /** Format: date-time */
+      updated_at?: string;
+    };
+    PointZ: {
+      /** Format: double */
+      X?: number;
+      /** Format: double */
+      Y?: number;
+      /** Format: double */
+      Z?: number;
+    };
+    Vec2: {
+      /** Format: double */
+      X?: number;
+      /** Format: double */
+      Y?: number;
+    };
+  };
+  responses: never;
+  parameters: never;
+  requestBodies: never;
+  headers: never;
+  pathItems: never;
 }
 export type $defs = Record<string, never>;
 export interface operations {
-    GetFuzzes: {
-        parameters: {
-            query?: {
-                /** @description SQL = operator */
-                id__eq?: string;
-                /** @description SQL != operator */
-                id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notilike?: string;
-                /** @description SQL = operator */
-                column1__eq?: string;
-                /** @description SQL != operator */
-                column1__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column1__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column1__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column1__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column1__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column1__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column1__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column1__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column1__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column1__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column1__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column1__notilike?: string;
-                /** @description SQL = operator */
-                column2__eq?: string;
-                /** @description SQL != operator */
-                column2__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column2__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column2__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column2__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column2__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column2__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column2__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column2__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column2__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column2__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column2__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column2__notilike?: string;
-                /** @description SQL = operator */
-                column7__eq?: string;
-                /** @description SQL != operator */
-                column7__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column7__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column7__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column7__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column7__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column7__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column7__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column7__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column7__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column7__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column7__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column7__notilike?: string;
-                /** @description SQL = operator */
-                column8__eq?: string;
-                /** @description SQL != operator */
-                column8__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column8__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column8__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column8__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column8__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column8__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column8__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column8__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column8__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column8__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column8__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column8__notilike?: string;
-                /** @description SQL = operator */
-                column12__eq?: number;
-                /** @description SQL != operator */
-                column12__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column12__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column12__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column12__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column12__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column12__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column12__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column12__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column12__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column12__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column12__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column12__notilike?: number;
-                /** @description SQL = operator */
-                column13__eq?: number;
-                /** @description SQL != operator */
-                column13__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column13__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column13__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column13__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column13__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column13__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column13__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column13__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column13__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column13__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column13__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column13__notilike?: number;
-                /** @description SQL = operator */
-                column14__eq?: number;
-                /** @description SQL != operator */
-                column14__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column14__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column14__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column14__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column14__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column14__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column14__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column14__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column14__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column14__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column14__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column14__notilike?: number;
-                /** @description SQL = operator */
-                column19__eq?: number;
-                /** @description SQL != operator */
-                column19__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column19__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column19__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column19__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column19__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column19__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column19__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column19__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column19__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column19__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column19__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column19__notilike?: number;
-                /** @description SQL = operator */
-                column20__eq?: number;
-                /** @description SQL != operator */
-                column20__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column20__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column20__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column20__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column20__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column20__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column20__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column20__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column20__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column20__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column20__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column20__notilike?: number;
-                /** @description SQL = operator */
-                column21__eq?: number;
-                /** @description SQL != operator */
-                column21__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column21__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column21__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column21__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column21__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column21__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column21__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column21__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column21__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column21__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column21__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column21__notilike?: number;
-                /** @description SQL = operator */
-                column22__eq?: number;
-                /** @description SQL != operator */
-                column22__ne?: number;
-                /** @description SQL > operator, may not work with all column types */
-                column22__gt?: number;
-                /** @description SQL >= operator, may not work with all column types */
-                column22__gte?: number;
-                /** @description SQL < operator, may not work with all column types */
-                column22__lt?: number;
-                /** @description SQL <= operator, may not work with all column types */
-                column22__lte?: number;
-                /** @description SQL IN operator, permits comma-separated values */
-                column22__in?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column22__nin?: number;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column22__notin?: number;
-                /** @description SQL IS NULL operator, value is ignored */
-                column22__isnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column22__nisnull?: number;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column22__isnotnull?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__l?: number;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__like?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__nl?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__nlike?: number;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__notlike?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__il?: number;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__ilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__nil?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__nilike?: number;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column22__notilike?: number;
-                /** @description SQL = operator */
-                column24__eq?: boolean;
-                /** @description SQL != operator */
-                column24__ne?: boolean;
-                /** @description SQL > operator, may not work with all column types */
-                column24__gt?: boolean;
-                /** @description SQL >= operator, may not work with all column types */
-                column24__gte?: boolean;
-                /** @description SQL < operator, may not work with all column types */
-                column24__lt?: boolean;
-                /** @description SQL <= operator, may not work with all column types */
-                column24__lte?: boolean;
-                /** @description SQL IN operator, permits comma-separated values */
-                column24__in?: boolean;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column24__nin?: boolean;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column24__notin?: boolean;
-                /** @description SQL IS NULL operator, value is ignored */
-                column24__isnull?: boolean;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column24__nisnull?: boolean;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column24__isnotnull?: boolean;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__l?: boolean;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__like?: boolean;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__nl?: boolean;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__nlike?: boolean;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__notlike?: boolean;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__il?: boolean;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__ilike?: boolean;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__nil?: boolean;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__nilike?: boolean;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column24__notilike?: boolean;
-                /** @description SQL = operator */
-                column26__eq?: string;
-                /** @description SQL != operator */
-                column26__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column26__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column26__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column26__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column26__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column26__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column26__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column26__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column26__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column26__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column26__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column26__notilike?: string;
-                /** @description SQL = operator */
-                column32__eq?: string;
-                /** @description SQL != operator */
-                column32__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column32__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column32__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column32__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column32__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column32__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column32__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column32__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column32__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column32__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column32__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column32__notilike?: string;
-                /** @description SQL = operator */
-                column33__eq?: string;
-                /** @description SQL != operator */
-                column33__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                column33__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                column33__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                column33__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                column33__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                column33__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column33__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                column33__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                column33__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column33__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                column33__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                column33__notilike?: string;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful List Fetch for Fuzzes */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["Fuzz"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Fetch for Fuzzes */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  GetFuzzes: {
+    parameters: {
+      query?: {
+        /** @description SQL = operator */
+        id__eq?: string;
+        /** @description SQL != operator */
+        id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notilike?: string;
+        /** @description SQL = operator */
+        column1__eq?: string;
+        /** @description SQL != operator */
+        column1__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column1__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column1__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column1__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column1__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column1__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column1__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column1__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column1__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column1__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column1__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column1__notilike?: string;
+        /** @description SQL = operator */
+        column2__eq?: string;
+        /** @description SQL != operator */
+        column2__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column2__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column2__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column2__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column2__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column2__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column2__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column2__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column2__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column2__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column2__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column2__notilike?: string;
+        /** @description SQL = operator */
+        column7__eq?: string;
+        /** @description SQL != operator */
+        column7__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column7__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column7__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column7__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column7__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column7__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column7__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column7__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column7__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column7__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column7__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column7__notilike?: string;
+        /** @description SQL = operator */
+        column8__eq?: string;
+        /** @description SQL != operator */
+        column8__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column8__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column8__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column8__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column8__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column8__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column8__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column8__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column8__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column8__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column8__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column8__notilike?: string;
+        /** @description SQL = operator */
+        column12__eq?: number;
+        /** @description SQL != operator */
+        column12__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column12__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column12__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column12__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column12__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column12__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column12__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column12__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column12__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column12__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column12__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column12__notilike?: number;
+        /** @description SQL = operator */
+        column13__eq?: number;
+        /** @description SQL != operator */
+        column13__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column13__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column13__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column13__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column13__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column13__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column13__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column13__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column13__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column13__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column13__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column13__notilike?: number;
+        /** @description SQL = operator */
+        column14__eq?: number;
+        /** @description SQL != operator */
+        column14__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column14__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column14__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column14__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column14__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column14__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column14__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column14__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column14__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column14__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column14__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column14__notilike?: number;
+        /** @description SQL = operator */
+        column19__eq?: number;
+        /** @description SQL != operator */
+        column19__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column19__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column19__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column19__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column19__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column19__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column19__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column19__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column19__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column19__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column19__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column19__notilike?: number;
+        /** @description SQL = operator */
+        column20__eq?: number;
+        /** @description SQL != operator */
+        column20__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column20__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column20__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column20__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column20__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column20__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column20__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column20__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column20__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column20__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column20__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column20__notilike?: number;
+        /** @description SQL = operator */
+        column21__eq?: number;
+        /** @description SQL != operator */
+        column21__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column21__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column21__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column21__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column21__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column21__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column21__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column21__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column21__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column21__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column21__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column21__notilike?: number;
+        /** @description SQL = operator */
+        column22__eq?: number;
+        /** @description SQL != operator */
+        column22__ne?: number;
+        /** @description SQL > operator, may not work with all column types */
+        column22__gt?: number;
+        /** @description SQL >= operator, may not work with all column types */
+        column22__gte?: number;
+        /** @description SQL < operator, may not work with all column types */
+        column22__lt?: number;
+        /** @description SQL <= operator, may not work with all column types */
+        column22__lte?: number;
+        /** @description SQL IN operator, permits comma-separated values */
+        column22__in?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column22__nin?: number;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column22__notin?: number;
+        /** @description SQL IS NULL operator, value is ignored */
+        column22__isnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column22__nisnull?: number;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column22__isnotnull?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__l?: number;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__like?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__nl?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__nlike?: number;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__notlike?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__il?: number;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__ilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__nil?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__nilike?: number;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column22__notilike?: number;
+        /** @description SQL = operator */
+        column24__eq?: boolean;
+        /** @description SQL != operator */
+        column24__ne?: boolean;
+        /** @description SQL > operator, may not work with all column types */
+        column24__gt?: boolean;
+        /** @description SQL >= operator, may not work with all column types */
+        column24__gte?: boolean;
+        /** @description SQL < operator, may not work with all column types */
+        column24__lt?: boolean;
+        /** @description SQL <= operator, may not work with all column types */
+        column24__lte?: boolean;
+        /** @description SQL IN operator, permits comma-separated values */
+        column24__in?: boolean;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column24__nin?: boolean;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column24__notin?: boolean;
+        /** @description SQL IS NULL operator, value is ignored */
+        column24__isnull?: boolean;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column24__nisnull?: boolean;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column24__isnotnull?: boolean;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__l?: boolean;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__like?: boolean;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__nl?: boolean;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__nlike?: boolean;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__notlike?: boolean;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__il?: boolean;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__ilike?: boolean;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__nil?: boolean;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__nilike?: boolean;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column24__notilike?: boolean;
+        /** @description SQL = operator */
+        column26__eq?: string;
+        /** @description SQL != operator */
+        column26__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column26__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column26__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column26__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column26__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column26__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column26__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column26__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column26__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column26__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column26__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column26__notilike?: string;
+        /** @description SQL = operator */
+        column32__eq?: string;
+        /** @description SQL != operator */
+        column32__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column32__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column32__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column32__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column32__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column32__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column32__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column32__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column32__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column32__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column32__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column32__notilike?: string;
+        /** @description SQL = operator */
+        column33__eq?: string;
+        /** @description SQL != operator */
+        column33__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        column33__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        column33__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        column33__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        column33__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        column33__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column33__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        column33__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        column33__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column33__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        column33__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        column33__notilike?: string;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    PostFuzzes: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      /** @description Successful List Fetch for Fuzzes */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["Fuzz"][];
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["Fuzz"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
-        responses: {
-            /** @description Successful List Create for Fuzzes */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["Fuzz"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Create for Fuzzes */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+      };
+      /** @description Failed List Fetch for Fuzzes */
+      default: {
+        headers: {
+          [name: string]: unknown;
         };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    GetFuzz: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for Fuzz */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Fetch for Fuzzes */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["Fuzz"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Fetch for Fuzzes */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  PostFuzzes: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    PutFuzz: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for Fuzz */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["Fuzz"];
-            };
-        };
-        responses: {
-            /** @description Successful Item Replace for Fuzzes */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["Fuzz"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Replace for Fuzzes */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["Fuzz"][];
+      };
     };
-    DeleteFuzz: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for Fuzz */
-                primaryKey: unknown;
-            };
-            cookie?: never;
+    responses: {
+      /** @description Successful List Create for Fuzzes */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Delete for Fuzzes */
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-            /** @description Failed Item Delete for Fuzzes */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["Fuzz"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
+      };
+      /** @description Failed List Create for Fuzzes */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    PatchFuzz: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for Fuzz */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["Fuzz"];
-            };
-        };
-        responses: {
-            /** @description Successful Item Update for Fuzzes */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["Fuzz"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Update for Fuzzes */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  GetFuzz: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for Fuzz */
+        primaryKey: unknown;
+      };
+      cookie?: never;
     };
-    GetLocationHistories: {
-        parameters: {
-            query?: {
-                /** @description SQL = operator */
-                id__eq?: string;
-                /** @description SQL != operator */
-                id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notilike?: string;
-                /** @description SQL = operator */
-                created_at__eq?: string;
-                /** @description SQL != operator */
-                created_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                created_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                created_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                created_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                created_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                created_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                created_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                created_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                created_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                created_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                created_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__notilike?: string;
-                /** @description SQL = operator */
-                updated_at__eq?: string;
-                /** @description SQL != operator */
-                updated_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                updated_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                updated_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                updated_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                updated_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                updated_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                updated_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                updated_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                updated_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                updated_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                updated_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__notilike?: string;
-                /** @description SQL = operator */
-                deleted_at__eq?: string;
-                /** @description SQL != operator */
-                deleted_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                deleted_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                deleted_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                deleted_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                deleted_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                deleted_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                deleted_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                deleted_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                deleted_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                deleted_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                deleted_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__notilike?: string;
-                /** @description SQL = operator */
-                timestamp__eq?: string;
-                /** @description SQL != operator */
-                timestamp__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                timestamp__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                timestamp__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                timestamp__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                timestamp__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                timestamp__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                timestamp__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                timestamp__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                timestamp__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                timestamp__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                timestamp__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                timestamp__notilike?: string;
-                /** @description SQL = operator */
-                parent_physical_thing_id__eq?: string;
-                /** @description SQL != operator */
-                parent_physical_thing_id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                parent_physical_thing_id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                parent_physical_thing_id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                parent_physical_thing_id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                parent_physical_thing_id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                parent_physical_thing_id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                parent_physical_thing_id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                parent_physical_thing_id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                parent_physical_thing_id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                parent_physical_thing_id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                parent_physical_thing_id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__notilike?: string;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Fetch for Fuzzes */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            /** @description Successful List Fetch for LocationHistories */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LocationHistory"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Fetch for LocationHistories */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["Fuzz"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
+      };
+      /** @description Failed Item Fetch for Fuzzes */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    PostLocationHistories: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LocationHistory"][];
-            };
-        };
-        responses: {
-            /** @description Successful List Create for LocationHistories */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LocationHistory"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Create for LocationHistories */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  PutFuzz: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for Fuzz */
+        primaryKey: unknown;
+      };
+      cookie?: never;
     };
-    GetLocationHistory: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LocationHistory */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Fetch for LocationHistories */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LocationHistory"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Fetch for LocationHistories */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["Fuzz"];
+      };
     };
-    PutLocationHistory: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LocationHistory */
-                primaryKey: unknown;
-            };
-            cookie?: never;
+    responses: {
+      /** @description Successful Item Replace for Fuzzes */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LocationHistory"];
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["Fuzz"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
-        responses: {
-            /** @description Successful Item Replace for LocationHistories */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LocationHistory"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Replace for LocationHistories */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+      };
+      /** @description Failed Item Replace for Fuzzes */
+      default: {
+        headers: {
+          [name: string]: unknown;
         };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    DeleteLocationHistory: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LocationHistory */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Delete for LocationHistories */
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-            /** @description Failed Item Delete for LocationHistories */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  DeleteFuzz: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for Fuzz */
+        primaryKey: unknown;
+      };
+      cookie?: never;
     };
-    PatchLocationHistory: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LocationHistory */
-                primaryKey: unknown;
-            };
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Delete for Fuzzes */
+      204: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LocationHistory"];
-            };
+        content?: never;
+      };
+      /** @description Failed Item Delete for Fuzzes */
+      default: {
+        headers: {
+          [name: string]: unknown;
         };
-        responses: {
-            /** @description Successful Item Update for LocationHistories */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LocationHistory"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Update for LocationHistories */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
+      };
     };
-    GetLogicalThings: {
-        parameters: {
-            query?: {
-                /** @description SQL = operator */
-                id__eq?: string;
-                /** @description SQL != operator */
-                id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notilike?: string;
-                /** @description SQL = operator */
-                created_at__eq?: string;
-                /** @description SQL != operator */
-                created_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                created_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                created_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                created_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                created_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                created_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                created_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                created_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                created_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                created_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                created_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__notilike?: string;
-                /** @description SQL = operator */
-                updated_at__eq?: string;
-                /** @description SQL != operator */
-                updated_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                updated_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                updated_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                updated_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                updated_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                updated_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                updated_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                updated_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                updated_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                updated_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                updated_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__notilike?: string;
-                /** @description SQL = operator */
-                deleted_at__eq?: string;
-                /** @description SQL != operator */
-                deleted_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                deleted_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                deleted_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                deleted_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                deleted_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                deleted_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                deleted_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                deleted_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                deleted_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                deleted_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                deleted_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__notilike?: string;
-                /** @description SQL = operator */
-                external_id__eq?: string;
-                /** @description SQL != operator */
-                external_id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                external_id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                external_id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                external_id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                external_id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                external_id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                external_id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                external_id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                external_id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                external_id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                external_id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__notilike?: string;
-                /** @description SQL = operator */
-                name__eq?: string;
-                /** @description SQL != operator */
-                name__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                name__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                name__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                name__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                name__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                name__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                name__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                name__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                name__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                name__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                name__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__notilike?: string;
-                /** @description SQL = operator */
-                type__eq?: string;
-                /** @description SQL != operator */
-                type__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                type__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                type__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                type__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                type__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                type__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                type__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                type__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                type__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                type__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                type__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__notilike?: string;
-                /** @description SQL = operator */
-                parent_physical_thing_id__eq?: string;
-                /** @description SQL != operator */
-                parent_physical_thing_id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                parent_physical_thing_id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                parent_physical_thing_id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                parent_physical_thing_id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                parent_physical_thing_id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                parent_physical_thing_id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                parent_physical_thing_id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                parent_physical_thing_id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                parent_physical_thing_id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                parent_physical_thing_id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                parent_physical_thing_id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_physical_thing_id__notilike?: string;
-                /** @description SQL = operator */
-                parent_logical_thing_id__eq?: string;
-                /** @description SQL != operator */
-                parent_logical_thing_id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                parent_logical_thing_id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                parent_logical_thing_id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                parent_logical_thing_id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                parent_logical_thing_id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                parent_logical_thing_id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                parent_logical_thing_id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                parent_logical_thing_id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                parent_logical_thing_id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                parent_logical_thing_id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                parent_logical_thing_id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                parent_logical_thing_id__notilike?: string;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful List Fetch for LogicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LogicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Fetch for LogicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  PatchFuzz: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for Fuzz */
+        primaryKey: unknown;
+      };
+      cookie?: never;
     };
-    PostLogicalThings: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LogicalThing"][];
-            };
-        };
-        responses: {
-            /** @description Successful List Create for LogicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LogicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Create for LogicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["Fuzz"];
+      };
     };
-    GetLogicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LogicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
+    responses: {
+      /** @description Successful Item Update for Fuzzes */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Fetch for LogicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LogicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Fetch for LogicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["Fuzz"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
+      };
+      /** @description Failed Item Update for Fuzzes */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    PutLogicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LogicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LogicalThing"];
-            };
-        };
-        responses: {
-            /** @description Successful Item Replace for LogicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LogicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Replace for LogicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  GetLocationHistories: {
+    parameters: {
+      query?: {
+        /** @description SQL = operator */
+        id__eq?: string;
+        /** @description SQL != operator */
+        id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notilike?: string;
+        /** @description SQL = operator */
+        created_at__eq?: string;
+        /** @description SQL != operator */
+        created_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        created_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        created_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        created_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        created_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        created_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        created_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        created_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        created_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        created_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        created_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__notilike?: string;
+        /** @description SQL = operator */
+        updated_at__eq?: string;
+        /** @description SQL != operator */
+        updated_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        updated_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        updated_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        updated_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        updated_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        updated_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        updated_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        updated_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        updated_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        updated_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        updated_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__notilike?: string;
+        /** @description SQL = operator */
+        deleted_at__eq?: string;
+        /** @description SQL != operator */
+        deleted_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        deleted_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        deleted_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        deleted_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        deleted_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        deleted_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        deleted_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        deleted_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        deleted_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        deleted_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        deleted_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__notilike?: string;
+        /** @description SQL = operator */
+        timestamp__eq?: string;
+        /** @description SQL != operator */
+        timestamp__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        timestamp__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        timestamp__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        timestamp__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        timestamp__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        timestamp__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        timestamp__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        timestamp__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        timestamp__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        timestamp__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        timestamp__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        timestamp__notilike?: string;
+        /** @description SQL = operator */
+        parent_physical_thing_id__eq?: string;
+        /** @description SQL != operator */
+        parent_physical_thing_id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        parent_physical_thing_id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        parent_physical_thing_id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        parent_physical_thing_id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        parent_physical_thing_id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        parent_physical_thing_id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        parent_physical_thing_id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        parent_physical_thing_id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        parent_physical_thing_id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        parent_physical_thing_id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        parent_physical_thing_id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__notilike?: string;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    DeleteLogicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LogicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      /** @description Successful List Fetch for LocationHistories */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Delete for LogicalThings */
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-            /** @description Failed Item Delete for LogicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LocationHistory"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
+      };
+      /** @description Failed List Fetch for LocationHistories */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    PatchLogicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for LogicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["LogicalThing"];
-            };
-        };
-        responses: {
-            /** @description Successful Item Update for LogicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["LogicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Update for LogicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  PostLocationHistories: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    GetPhysicalThings: {
-        parameters: {
-            query?: {
-                /** @description SQL = operator */
-                id__eq?: string;
-                /** @description SQL != operator */
-                id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                id__notilike?: string;
-                /** @description SQL = operator */
-                created_at__eq?: string;
-                /** @description SQL != operator */
-                created_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                created_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                created_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                created_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                created_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                created_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                created_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                created_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                created_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                created_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                created_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                created_at__notilike?: string;
-                /** @description SQL = operator */
-                updated_at__eq?: string;
-                /** @description SQL != operator */
-                updated_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                updated_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                updated_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                updated_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                updated_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                updated_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                updated_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                updated_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                updated_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                updated_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                updated_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                updated_at__notilike?: string;
-                /** @description SQL = operator */
-                deleted_at__eq?: string;
-                /** @description SQL != operator */
-                deleted_at__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                deleted_at__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                deleted_at__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                deleted_at__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                deleted_at__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                deleted_at__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                deleted_at__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                deleted_at__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                deleted_at__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                deleted_at__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                deleted_at__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                deleted_at__notilike?: string;
-                /** @description SQL = operator */
-                external_id__eq?: string;
-                /** @description SQL != operator */
-                external_id__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                external_id__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                external_id__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                external_id__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                external_id__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                external_id__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                external_id__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                external_id__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                external_id__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                external_id__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                external_id__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                external_id__notilike?: string;
-                /** @description SQL = operator */
-                name__eq?: string;
-                /** @description SQL != operator */
-                name__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                name__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                name__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                name__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                name__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                name__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                name__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                name__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                name__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                name__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                name__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                name__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                name__notilike?: string;
-                /** @description SQL = operator */
-                type__eq?: string;
-                /** @description SQL != operator */
-                type__ne?: string;
-                /** @description SQL > operator, may not work with all column types */
-                type__gt?: string;
-                /** @description SQL >= operator, may not work with all column types */
-                type__gte?: string;
-                /** @description SQL < operator, may not work with all column types */
-                type__lt?: string;
-                /** @description SQL <= operator, may not work with all column types */
-                type__lte?: string;
-                /** @description SQL IN operator, permits comma-separated values */
-                type__in?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                type__nin?: string;
-                /** @description SQL NOT IN operator, permits comma-separated values */
-                type__notin?: string;
-                /** @description SQL IS NULL operator, value is ignored */
-                type__isnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                type__nisnull?: string;
-                /** @description SQL IS NOT NULL operator, value is ignored */
-                type__isnotnull?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__l?: string;
-                /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__like?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nl?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nlike?: string;
-                /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
-                type__notlike?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__il?: string;
-                /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__ilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nil?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__nilike?: string;
-                /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
-                type__notilike?: string;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful List Fetch for PhysicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["PhysicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Fetch for PhysicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["LocationHistory"][];
+      };
     };
-    PostPhysicalThings: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    responses: {
+      /** @description Successful List Create for LocationHistories */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["PhysicalThing"][];
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LocationHistory"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
-        responses: {
-            /** @description Successful List Create for PhysicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["PhysicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed List Create for PhysicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+      };
+      /** @description Failed List Create for LocationHistories */
+      default: {
+        headers: {
+          [name: string]: unknown;
         };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    GetPhysicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for PhysicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Fetch for PhysicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["PhysicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Fetch for PhysicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  GetLocationHistory: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LocationHistory */
+        primaryKey: unknown;
+      };
+      cookie?: never;
     };
-    PutPhysicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for PhysicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Fetch for LocationHistories */
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["PhysicalThing"];
-            };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LocationHistory"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
         };
-        responses: {
-            /** @description Successful Item Replace for PhysicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["PhysicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Replace for PhysicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
+      };
+      /** @description Failed Item Fetch for LocationHistories */
+      default: {
+        headers: {
+          [name: string]: unknown;
         };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
     };
-    DeletePhysicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for PhysicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            /** @description Successful Item Delete for PhysicalThings */
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-            /** @description Failed Item Delete for PhysicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+  };
+  PutLocationHistory: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LocationHistory */
+        primaryKey: unknown;
+      };
+      cookie?: never;
     };
-    PatchPhysicalThing: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                /** @description Primary key for PhysicalThing */
-                primaryKey: unknown;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["PhysicalThing"];
-            };
-        };
-        responses: {
-            /** @description Successful Item Update for PhysicalThings */
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        objects?: components["schemas"]["PhysicalThing"][];
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-            /** @description Failed Item Update for PhysicalThings */
-            default: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": {
-                        error?: string;
-                        /** Format: int32 */
-                        status: number;
-                        success: boolean;
-                    };
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["LocationHistory"];
+      };
     };
+    responses: {
+      /** @description Successful Item Replace for LocationHistories */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LocationHistory"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Replace for LocationHistories */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  DeleteLocationHistory: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LocationHistory */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Delete for LocationHistories */
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+      /** @description Failed Item Delete for LocationHistories */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PatchLocationHistory: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LocationHistory */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["LocationHistory"];
+      };
+    };
+    responses: {
+      /** @description Successful Item Update for LocationHistories */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LocationHistory"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Update for LocationHistories */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  GetLogicalThings: {
+    parameters: {
+      query?: {
+        /** @description SQL = operator */
+        id__eq?: string;
+        /** @description SQL != operator */
+        id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notilike?: string;
+        /** @description SQL = operator */
+        created_at__eq?: string;
+        /** @description SQL != operator */
+        created_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        created_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        created_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        created_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        created_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        created_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        created_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        created_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        created_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        created_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        created_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__notilike?: string;
+        /** @description SQL = operator */
+        updated_at__eq?: string;
+        /** @description SQL != operator */
+        updated_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        updated_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        updated_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        updated_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        updated_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        updated_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        updated_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        updated_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        updated_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        updated_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        updated_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__notilike?: string;
+        /** @description SQL = operator */
+        deleted_at__eq?: string;
+        /** @description SQL != operator */
+        deleted_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        deleted_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        deleted_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        deleted_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        deleted_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        deleted_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        deleted_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        deleted_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        deleted_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        deleted_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        deleted_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__notilike?: string;
+        /** @description SQL = operator */
+        external_id__eq?: string;
+        /** @description SQL != operator */
+        external_id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        external_id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        external_id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        external_id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        external_id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        external_id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        external_id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        external_id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        external_id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        external_id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        external_id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__notilike?: string;
+        /** @description SQL = operator */
+        name__eq?: string;
+        /** @description SQL != operator */
+        name__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        name__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        name__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        name__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        name__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        name__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        name__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        name__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        name__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        name__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        name__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__notilike?: string;
+        /** @description SQL = operator */
+        type__eq?: string;
+        /** @description SQL != operator */
+        type__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        type__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        type__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        type__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        type__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        type__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        type__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        type__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        type__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        type__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        type__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__notilike?: string;
+        /** @description SQL = operator */
+        parent_physical_thing_id__eq?: string;
+        /** @description SQL != operator */
+        parent_physical_thing_id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        parent_physical_thing_id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        parent_physical_thing_id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        parent_physical_thing_id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        parent_physical_thing_id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        parent_physical_thing_id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        parent_physical_thing_id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        parent_physical_thing_id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        parent_physical_thing_id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        parent_physical_thing_id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        parent_physical_thing_id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_physical_thing_id__notilike?: string;
+        /** @description SQL = operator */
+        parent_logical_thing_id__eq?: string;
+        /** @description SQL != operator */
+        parent_logical_thing_id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        parent_logical_thing_id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        parent_logical_thing_id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        parent_logical_thing_id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        parent_logical_thing_id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        parent_logical_thing_id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        parent_logical_thing_id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        parent_logical_thing_id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        parent_logical_thing_id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        parent_logical_thing_id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        parent_logical_thing_id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        parent_logical_thing_id__notilike?: string;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful List Fetch for LogicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LogicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed List Fetch for LogicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PostLogicalThings: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["LogicalThing"][];
+      };
+    };
+    responses: {
+      /** @description Successful List Create for LogicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LogicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed List Create for LogicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  GetLogicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LogicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Fetch for LogicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LogicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Fetch for LogicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PutLogicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LogicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["LogicalThing"];
+      };
+    };
+    responses: {
+      /** @description Successful Item Replace for LogicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LogicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Replace for LogicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  DeleteLogicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LogicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Delete for LogicalThings */
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+      /** @description Failed Item Delete for LogicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PatchLogicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for LogicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["LogicalThing"];
+      };
+    };
+    responses: {
+      /** @description Successful Item Update for LogicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["LogicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Update for LogicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  GetPhysicalThings: {
+    parameters: {
+      query?: {
+        /** @description SQL = operator */
+        id__eq?: string;
+        /** @description SQL != operator */
+        id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        id__notilike?: string;
+        /** @description SQL = operator */
+        created_at__eq?: string;
+        /** @description SQL != operator */
+        created_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        created_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        created_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        created_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        created_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        created_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        created_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        created_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        created_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        created_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        created_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        created_at__notilike?: string;
+        /** @description SQL = operator */
+        updated_at__eq?: string;
+        /** @description SQL != operator */
+        updated_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        updated_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        updated_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        updated_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        updated_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        updated_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        updated_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        updated_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        updated_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        updated_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        updated_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        updated_at__notilike?: string;
+        /** @description SQL = operator */
+        deleted_at__eq?: string;
+        /** @description SQL != operator */
+        deleted_at__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        deleted_at__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        deleted_at__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        deleted_at__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        deleted_at__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        deleted_at__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        deleted_at__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        deleted_at__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        deleted_at__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        deleted_at__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        deleted_at__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        deleted_at__notilike?: string;
+        /** @description SQL = operator */
+        external_id__eq?: string;
+        /** @description SQL != operator */
+        external_id__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        external_id__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        external_id__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        external_id__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        external_id__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        external_id__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        external_id__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        external_id__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        external_id__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        external_id__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        external_id__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        external_id__notilike?: string;
+        /** @description SQL = operator */
+        name__eq?: string;
+        /** @description SQL != operator */
+        name__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        name__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        name__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        name__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        name__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        name__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        name__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        name__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        name__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        name__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        name__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        name__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        name__notilike?: string;
+        /** @description SQL = operator */
+        type__eq?: string;
+        /** @description SQL != operator */
+        type__ne?: string;
+        /** @description SQL > operator, may not work with all column types */
+        type__gt?: string;
+        /** @description SQL >= operator, may not work with all column types */
+        type__gte?: string;
+        /** @description SQL < operator, may not work with all column types */
+        type__lt?: string;
+        /** @description SQL <= operator, may not work with all column types */
+        type__lte?: string;
+        /** @description SQL IN operator, permits comma-separated values */
+        type__in?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        type__nin?: string;
+        /** @description SQL NOT IN operator, permits comma-separated values */
+        type__notin?: string;
+        /** @description SQL IS NULL operator, value is ignored */
+        type__isnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        type__nisnull?: string;
+        /** @description SQL IS NOT NULL operator, value is ignored */
+        type__isnotnull?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__l?: string;
+        /** @description SQL LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__like?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nl?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nlike?: string;
+        /** @description SQL NOT LIKE operator, value is implicitly prefixed and suffixed with % */
+        type__notlike?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__il?: string;
+        /** @description SQL ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__ilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nil?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__nilike?: string;
+        /** @description SQL NOT ILIKE operator, value is implicitly prefixed and suffixed with % */
+        type__notilike?: string;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful List Fetch for PhysicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["PhysicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed List Fetch for PhysicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PostPhysicalThings: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["PhysicalThing"][];
+      };
+    };
+    responses: {
+      /** @description Successful List Create for PhysicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["PhysicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed List Create for PhysicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  GetPhysicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for PhysicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Fetch for PhysicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["PhysicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Fetch for PhysicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PutPhysicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for PhysicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["PhysicalThing"];
+      };
+    };
+    responses: {
+      /** @description Successful Item Replace for PhysicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["PhysicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Replace for PhysicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  DeletePhysicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for PhysicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      /** @description Successful Item Delete for PhysicalThings */
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+      /** @description Failed Item Delete for PhysicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
+  PatchPhysicalThing: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        /** @description Primary key for PhysicalThing */
+        primaryKey: unknown;
+      };
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        "application/json": components["schemas"]["PhysicalThing"];
+      };
+    };
+    responses: {
+      /** @description Successful Item Update for PhysicalThings */
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            objects?: components["schemas"]["PhysicalThing"][];
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+      /** @description Failed Item Update for PhysicalThings */
+      default: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          "application/json": {
+            error?: string;
+            /** Format: int32 */
+            status: number;
+            success: boolean;
+          };
+        };
+      };
+    };
+  };
 }
